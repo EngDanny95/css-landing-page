@@ -92,6 +92,9 @@ li{
 }
 figcaption{
     text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+    font-weight: 600;
 }
 
 /* .section2{
