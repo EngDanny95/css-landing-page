@@ -8,9 +8,17 @@ body > *{
     padding: 10px 150px;
 }
 
+/* increasing the size from 24px to 36 */
+
 .logo{
-    font-size: 24px;
+    font-size: 36px;
     color: #f9faf8;
+}
+
+/* increasing the size from 18px to 25px */
+.header{
+    color: #e5e7eb;
+    font-size: 25px;
 }
 
 .header, .section1, .footer{
@@ -22,8 +30,7 @@ body > *{
 }
 
 .title1{
-    font-size: 48px;
-    font-weight: 900;
+    font: 900 48px 'roboto';
     color: #f9faf8;
     margin: 20px 0;
 
@@ -35,14 +42,13 @@ body > *{
     max-width: 90%; 
 }
 
-button{
+.fbutton{
     background-color: #3882f6;
     padding: 5px;
     color: #f9faf8;
     width: 100px;
     margin: 20px 0;
-    font-family: sans-serif;
-    font-weight: 900;
+    font: 900 sans-serif;
     border: none;
     border-radius: 5px;
 }
@@ -65,8 +71,7 @@ li{
 }
 
 .title2{
-    font-size: 36px;
-    font-weight: 900;
+    font: 900 36px 'roboto';
     color: #1f2937;
     text-align: center;
     margin: 30px;
@@ -97,24 +102,57 @@ figcaption{
     font-weight: 600;
 }
 
-/* .section2{
- 
-} */
+.section3{
+background-color: #E5E7EB;
+padding: 150px;
+font: italic 400 36px /1.5 serif;
+color: #1f2937;
+}
 
-/* .section3{
+a{
+    text-decoration: none;
+    color: #0000EE;
+}
 
+.section3 p{
+    text-align: end;
+    font-weight: 900;
+    margin: 30px 0;
 }
 
 .section4{
+background-color: #3882f6;
+margin: 150px 100px;
+padding: 60px;
+display: flex;
+justify-content: space-between;
+}
 
+.section4L{
+color: #f9faf8;
+font: 900 21px Georgia;
+}
+
+.section4L p{
+    font: 100 18px Georgia;
+    margin: 5px 0;
+    }
+
+.sbutton{
+    background-color: #3882f6;
+    padding: 5px 20px;
+    color: #f9faf8;
+    width: 100px;
+    height: 40px;
+    align-self: center;
+    font: 900 15px Georgia;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 .footer{
-}  */
-
-/* style:
-darkblue: background-color: #1f2937;
-white: color: #f9faf8;
-button > background-color: #3882f6;
-quote > background-color: #e5e7eb;
-*/
+    display: flex;
+    color: white;
+    padding: 50px;
+    justify-content: center;
+} 
