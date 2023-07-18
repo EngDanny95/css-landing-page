@@ -72,27 +72,25 @@ li{
     margin: 30px;
 }
 
-.games-pics{
+.games-highlight{
     display: flex;
     justify-content: center;
-    align-items: center;
+    gap: 50px;
 }
 
+.game{
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+}
 
 .gpic{
-    max-width: 20%;
+    margin: 10px 20px;
     border-radius: 5px;
     border: 2px solid #3882f6;
-    margin: 30px;
 
 }
-
-.games-text{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.caption{
+figcaption{
     text-align: center;
 }
 
