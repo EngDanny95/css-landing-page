@@ -4,30 +4,24 @@
     padding: 0;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-}
-
 body > *{
-    padding: 10px 170px;
+    padding: 10px 150px;
 }
 
-.header, .section-1, .footer{
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.header, .section1, .footer{
     background-color: #1f2937;
     display: flex;        
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    
 }
 
-.logotxt{
-    font-size: 24px;
-    color: #f9faf8;
-}
-
-.maintxt{
+.title1{
     font-size: 48px;
     font-weight: 900;
     color: #f9faf8;
@@ -35,22 +29,22 @@ body > *{
 
 }
 
-.bodytxt{
+.body1{
     font-size: 18px;
     color: #e5e7eb;
-    max-width: 550px; 
+    max-width: 90%; 
 }
 
 button{
     background-color: #3882f6;
     padding: 5px;
-    color: white;
+    color: #f9faf8;
     width: 100px;
     margin: 20px 0;
     font-family: sans-serif;
     font-weight: 900;
-    border: white;
-    border-radius: 4px;
+    border: none;
+    border-radius: 5px;
 }
 
 ul{
@@ -63,30 +57,59 @@ li{
     color: #f9faf8;
 }
 
-img{
+.ps5display{
     max-width: 55%;
     height: auto;
-    margin: 50px 0;
-    border: 2px solid white;
+    margin: 100px 0;
+    border: 2px solid #f9faf8;
+}
+
+.title2{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    text-align: center;
+    margin: 30px;
+}
+
+.games-pics{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
-/* 
-
-.section-2{
-
-}
-
-.section-3{
+.gpic{
+    max-width: 20%;
+    border-radius: 5px;
+    border: 2px solid #3882f6;
+    margin: 30px;
 
 }
 
-.section-4{
+.games-text{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.caption{
+    text-align: center;
+}
+
+/* .section2{
+ 
+} */
+
+/* .section3{
+
+}
+
+.section4{
 
 }
 
 .footer{
-} */
+}  */
 
 /* style:
 darkblue: background-color: #1f2937;
